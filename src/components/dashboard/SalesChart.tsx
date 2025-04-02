@@ -73,7 +73,7 @@ const SalesChart = () => {
             tickLine={false} 
             tick={{ fill: 'hsl(var(--muted-foreground))' }}
             width={50}
-            tickFormatter={(value) => `$${value}`}
+            tickFormatter={(value) => `${value.toLocaleString()}`}
           />
           <Tooltip 
             contentStyle={{ 
