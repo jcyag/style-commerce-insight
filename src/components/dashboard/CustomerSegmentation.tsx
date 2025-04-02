@@ -18,8 +18,8 @@ const COLORS = ["#3b82f6", "#6366f1", "#8b5cf6"];
 
 const CustomerSegmentation = () => {
   return (
-    <div className="sales-card h-[300px]">
-      <h3 className="text-lg font-medium mb-4">Customer Segmentation</h3>
+    <div className="sales-card h-[400px]">
+      <h3 className="text-lg font-medium mb-6">Customer Segmentation</h3>
       
       <ResponsiveContainer width="100%" height="85%">
         <PieChart>
